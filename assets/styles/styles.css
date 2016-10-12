@@ -22,9 +22,13 @@ header ul li a {
     font-family: Arial;
 }
 
-/* Change the link color to #111 (black) on hover */
+ /*Change the link color to #111 (black) on hover*/
 header ul li a:hover {
     background-color: #111;
+}
+ul {
+    width:50%;
+    display: inline;
 }
 
 h1 {
@@ -37,4 +41,28 @@ h2 {
 
 .content {
 	background-color: #a5a5a5;
+}
+
+.google-search {
+    float: right;
+    display: inline;
+    padding-top:15px;
+    padding-right:15px;  
+}
+.nav-bar {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial;
+    width: 100%;
+}
+.link-bar {
+    float: left;
 }
