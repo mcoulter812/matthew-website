@@ -1,5 +1,14 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: #a5a5a5;
+    font-family: "Comic Sans MS";
+}
 header {
 	background-color: #5590e8;
+    margin:0;
+    padding:0;
+    display: block;
 }
 header ul {
 	list-style-type: none;
@@ -33,20 +42,26 @@ ul {
 
 h1 {
 	font-family: "Arial Black";
+    margin:0;
+    padding:0;
 }
 
 h2 {
-	font-family: "Arial Black";	
+	font-family: "Arial Black";
+    padding-left: 15px;	
+}
+p {
+    padding-left: 15px;
 }
 
 .content {
-	background-color: #a5a5a5;
+	
 }
 
 .google-search {
     float: right;
     display: inline;
-    padding-top:15px;
+    padding-top:14px;
     padding-right:15px;  
 }
 .nav-bar {
@@ -58,7 +73,14 @@ h2 {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding-left:16px;
+    padding-right: 16px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 3px;
+    margin-left: 0px;
     text-decoration: none;
     font-family: Arial;
     width: 100%;
